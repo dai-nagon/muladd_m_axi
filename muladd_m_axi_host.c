@@ -7,7 +7,7 @@
 
 #define SIZE 16
 
-//DMA転送元の基底アドレス
+//DMA転送元の基底アドレス。型変換はなくてもいいかもしれない。
 #define a_base_addr  ((volatile int *)0x10000000)
 #define b_base_addr  ((volatile int *)0x10000080)
 
