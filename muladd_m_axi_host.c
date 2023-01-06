@@ -6,6 +6,8 @@
 #include "xil_cache.h"
 
 #define SIZE 16
+
+//DMA転送元の基底アドレス
 #define a_base_addr  ((volatile int *)0x10000000)
 #define b_base_addr  ((volatile int *)0x10000080)
 
